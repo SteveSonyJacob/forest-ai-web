@@ -23,5 +23,15 @@ const App = () => (
     </TooltipProvider>
   </QueryClientProvider>
 );
+import ChatAgent from './components/ChatAgent';
+
+function App() {
+  return (
+    <div className="App">
+      {/* other UI elements */}
+      <ChatAgent />
+    </div>
+  );
+}
 
 export default App;
